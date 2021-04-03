@@ -5,12 +5,12 @@ window.addEventListener("DOMContentLoaded", function() {
 
   function success() {
     form.reset();
-    button.style = "display: none ";
-    status.innerHTML = "<span>Thanks! Contact form is submitted successfully.</span>";
+    button.style = "display: none , color: #fff";
+    status.innerHTML = "Thanks! Contact form is submitted successfully.";
   }
 
   function error() {
-    status.innerHTML = "<span>Oops! There was a problem.</sapan>";
+    status.innerHTML = "Oops! There was a problem.";
   }
 
   // handle the form submission event
