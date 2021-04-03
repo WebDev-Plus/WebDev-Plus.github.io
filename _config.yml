@@ -1,14 +1,14 @@
 # Welcome to Jekyll!
 
-title: Roxo Jekyll
-email: help@staticmania.com
-description: Roxo | Creative Design Agency
+title: WebDev Plus
+email: help@webdevpl.us
+description: WebDevPlus | Creative Design Agency
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://webdevpl.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 # We're using formspree.io for form handling, paste your formspree url below
-formspreeFormUrl: "https://formspree.io/myykjpje"
+formspreeFormUrl: "https://formspree.io/webdevpl.us"
 
 # Build settings
 gems:
@@ -59,7 +59,7 @@ footer:
     title   : "Contact Info"
     address : "713 Elmwood St.<br>Prior Lake, MN 55372"
     phone   : "409-896-1444"
-    email   : "info@roxo.co"
+    email   : "info@webdevpl.us"
   sitemap:
     title: "Sitemap"
     link: 
