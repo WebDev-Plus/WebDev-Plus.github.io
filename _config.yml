@@ -37,8 +37,8 @@ navigation:
     url: /about
   - title: Portfolio
     url: /portfolio
-  - title: Blog
-    url: /blog
+  - title: Our Process
+    url: /process
   - title: Get in touch
     url: /contact
     tag: special
@@ -63,9 +63,9 @@ footer:
   sitemap:
     title: "Sitemap"
     link: 
-      - name  : "About Company"
+      - name  : "About"
         url   : "/about"
-      - name  : "Projects"
+      - name  : "Our Works"
         url   : "/portfolio"
       - name  : "Blog"
         url   : "/blog"
