@@ -33,12 +33,12 @@ webrick:
 navigation:
   - title: Home
     url: /
-  - title: About
-    url: /about
   - title: Portfolio
     url: /portfolio
   - title: Our Process
     url: /process
+  - title: About
+    url: /about
   - title: Get A Quote
     url: /contact
     tag: special
@@ -65,25 +65,25 @@ footer:
     link: 
       - name  : "About"
         url   : "/about"
-      - name  : "Our Works"
+      - name  : "Portfolio"
         url   : "/portfolio"
       - name  : "Blog"
         url   : "/blog"
       - name  : "Contact"
         url   : "/contact"
   social:
-    title: "Social Media"
+    title: "Socials"
     link: 
       - name  : "Facebook"
-        url   : "#"
-      - name  : "Twitter"
-        url   : "#"
-      - name  : "Instagram"
-        url   : "#"
+        url   : "https://facebook.com/webdevplus"
+      # - name  : "Twitter"
+      #   url   : "https://twitter.com/webdevplus"
+      # - name  : "Instagram"
+      #   url   : "https://instagram.com/webdevpl.us"
       
   service:
     title: "We help brands:"
-    description: "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+    description: "Develop design solutions.<br>Produce valuable cultural content.<br>Create fresh brand experience"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
