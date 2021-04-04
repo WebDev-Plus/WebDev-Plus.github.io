@@ -4,13 +4,13 @@ members  :
   - image       : images/team/team-member-one.jpg
     name        : EPER GABONI
     designation : Web Developer / Designer
-    medium      : https://www.medium.com/
+    github      : https://www.medium.com/
     linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+    
 
-  - image       : images/team/team-member-two.jpg
+  - image       : https://avatars.githubusercontent.com/u/7221308
     name        : JEFF GABONI 
     designation : Web Developer / Designer
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+    github      : https://www.github.com/iamthenewking
+    
+   
