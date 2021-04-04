@@ -6,17 +6,20 @@ pagination:
   enabled: true
 ---
 
+<!-- style="background-image: url({{ 'images/backgrounds/hero-background.jpg' | absolute_url }});" -->
+
+
 <!-- start: hero section -->
-<section class="site-hero" style="background-image: url({{ 'images/backgrounds/hero-background.jpg' | absolute_url }});">
+<section class="site-hero">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto">
-        <div class="site-hero-content text-left">
+        <div class="site-hero-content text-center">
           <h6>WE ARE WEBDEVPLUS </h6>
           <h1>
             We Craft Simple, Clean  
             <br>
-            And Beautiful Websites!
+            And <span>Beautiful</span> Websites!
           </h1>
           <ul class="site-hero-content-buttons">
             <li>
@@ -84,7 +87,7 @@ pagination:
       </div>
       {% assign posts = site.posts | where:'type', 'portfolio' %}
       {%- for post in posts limit: 4 -%}
-      <div class="col-lg-6 col-md-10 mx-auto">
+      <div class="col-lg-3 col-md-12 mx-auto">
         <div class="site-project-item">
           <div class="site-project-item-thumb">
             <img src="{{ post.image }}" alt="project-thumb-one">
@@ -92,13 +95,13 @@ pagination:
           <div class="site-project-item-content">
             <span>{{ post.category[0] }}</span>
             <h3>{{ post.title }}</h3>
-            <a href="{{ post.url | absolute_url }}" class="read-more">view project</a>
+            <a href="{{ post.url | absolute_url }}" class="read-more">View Psroject</a>
           </div>
         </div>
       </div>
       {%- endfor -%}
       <div class="col-12 text-center text-lg-left">
-        <a href="{{ '/portfolio' | absolute_url }}" class="site-project-cta">MORE WORKS</a>
+        <a href="{{ '/portfolio' | absolute_url }}" class="site-project-cta">View All Projects</a>
       </div>
     </div>
   </div>

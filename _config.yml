@@ -16,7 +16,7 @@ gems:
 
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 4
   permalink: '/blog/:num/'
   sort_field: 'date'
   sort_reverse: true
@@ -39,7 +39,7 @@ navigation:
     url: /portfolio
   - title: Our Process
     url: /process
-  - title: Get in touch
+  - title: Get A Quote
     url: /contact
     tag: special
 
@@ -50,14 +50,14 @@ call-to-action:
   title                 : "LET’S WORK TOGETHER"
   primary_button        : "Submit Query"
   primary_button_url    : "/contact"
-  secondary_button      : "Not Convinced"
+  secondary_button      : "Not Convinced Yet?"
   secondary_button_url  : "/portfolio"
 
 # Footer
 footer:
   contactInfo:
     title   : "Contact Info"
-    address : "713 Elmwood St.<br>Prior Lake, MN 55372"
+    address : "Isabela<br>PH 3318"
     phone   : "409-896-1444"
     email   : "info@webdevpl.us"
   sitemap:
@@ -74,14 +74,13 @@ footer:
   social:
     title: "Social Media"
     link: 
-      - name  : "Medium"
+      - name  : "Facebook"
         url   : "#"
-      - name  : "Behance"
-        url   : "#"
-      - name  : "Dribbble"
+      - name  : "Twitter"
         url   : "#"
       - name  : "Instagram"
         url   : "#"
+      
   service:
     title: "We help brands:"
     description: "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"

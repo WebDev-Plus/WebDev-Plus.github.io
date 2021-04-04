@@ -3,6 +3,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center center;
+  // background-color: $gray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +22,11 @@
         
         margin-bottom: 50px;
       }
+      span{
+        color: $primary-color;
+        
+      }
+
       @include mobile{
         font-size: 40px;
       }
