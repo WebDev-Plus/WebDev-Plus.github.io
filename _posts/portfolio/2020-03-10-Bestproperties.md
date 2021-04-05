@@ -11,4 +11,4 @@ project_images: ["images/projects/thumb-project-bestproperties.jpg.png"]
 
 Find the Best Properties in the Philippines
 
-Visit Project : [BestProperties.Ph](bestproperties.ph)
+Visit Project : [BestProperties.Ph](https://bestproperties.ph)
