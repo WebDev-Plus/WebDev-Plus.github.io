@@ -1,16 +1,16 @@
 enable  : true
 title   : Teamwork makes the dreamwork.
 members  :
-  - image       : images/team/team-member-one.jpg
-    name        : EPER GABONI
+  - image       : images/team/eper.jpeg
+    name        : Jeferson Gaboni
     designation : Web Developer / Designer
-    github      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
+    facebook    : https://www.facebook.com/epergab
+   
     
 
   - image       : https://avatars.githubusercontent.com/u/7221308
-    name        : JEFF GABONI 
+    name        : Jeffrey Gaboni
     designation : Web Developer / Designer
-    github      : https://www.github.com/iamthenewking
+    facebook    : https://www.facebook.com/iamthenewking
     
    
