@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "BestProperties.Ph"
+title: "BestProperties"
 date: 2020-03-10 21:11:27
 type: portfolio
 image: "images/projects/thumb-project-bestproperties.jpg.png"
