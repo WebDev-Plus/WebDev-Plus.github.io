@@ -17,7 +17,7 @@ gems:
 pagination:
   enabled: true
   per_page: 4
-  permalink: '/blog/:num/'
+  permalink: '/blog/:title/'
   sort_field: 'date'
   sort_reverse: true
 
