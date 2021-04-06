@@ -2,6 +2,23 @@
   <meta charset="utf-8" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+<meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://webdevpl.us/">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:image" content="{{ "images/OG.png" | absolute_url }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://webdevpl.us/">
+<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:image" content="{{ "images/OG.png" | absolute_url }}">
+
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -15,6 +32,6 @@
   <link href="{{ '/css/style.css' | absolute_url }}" rel="stylesheet" />
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="{{ "images/logo.png" | absolute_url }}" type="image/x-icon" />
-  <link rel="icon" href="{{ "images/logo.png" | absolute_url }}" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ "images/favicon.png" | absolute_url }}" type="image/x-icon" />
+  <link rel="icon" href="{{ "images/favicon.png" | absolute_url }}" type="image/x-icon" />
 </head>
