@@ -24,6 +24,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="author" content="Webdevplus">
 
+ <!-- sitemap -->
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+ <!-- canonical -->
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | absolute_url }}" />
   <!-- font-awesome -->
