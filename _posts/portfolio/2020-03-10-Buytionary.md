@@ -10,6 +10,6 @@ project_images: ["images/projects/project-buytionary.jpg.png"]
 
 
 
-Fresh technology news, buyer’s guides, reviews, deals and more
+### Fresh technology news, buyer’s guides, reviews, deals and more
 
-Visit Project: [Buytionary.Com](https://buytionary.com)
+**Visit Project: [Buytionary.Com](https://buytionary.com)**
