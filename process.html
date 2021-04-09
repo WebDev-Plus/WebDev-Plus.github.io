@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Our Process
+title: Our Process | One of Philippines Leading Web Design & Development Agency
 permalink: /process/
 heading : "The Process"
 description : "Our collaborative <strong>design philosophy</strong> means we take the time to understand your <strong>goals</strong> and adopt them as our own; <strong>working closely</strong> with you to ensure our  <strong>high-performance</strong>design workflows accomplish everything you're aiming for – and more."
@@ -8,35 +8,35 @@ expertise_title: "How We Work"
 expertise_sectors: [
 
 
-"<h3>1. Goal</h3>We design websites that produce results. To do so, our project manager will work
+"<h3> Goal</h3>We design websites that produce results. To do so, our project manager will work
 with you to identify strategies before we begin the project. We'll also figure out
 who your target audience is so that we can build a template that fits them.",
 
 
-"<h3>2. Design</h3>To ensure that we have the same idea, we'll give you an in-depth appropriate for
+"<h3> Design</h3>To ensure that we have the same idea, we'll give you an in-depth appropriate for
 the analysis so that we can develop a design that reflects your objective. You will
 receive a design concept for your website in 3-5 days.",
 
 
-"<h3>3. Development</h3>When you're satisfied with the concept, our development team will bring it to life
+"<h3> Development</h3>When you're satisfied with the concept, our development team will bring it to life
 and begin working on it. This will takes 3-4 weeks after your concept approval. It's
 also the perfect time to give us your content at this time including content such as
 information about your company, images, social profile, etc. ",
 
 
-"<h3>4. Quality Assurance</h3>Your project will be handed over to our QA team after the initial development.
+"<h3> Quality Assurance</h3>Your project will be handed over to our QA team after the initial development.
 They will extensively analyze the design and production of your project before submitting it for your approval.",
 
 
-"<h3>5. Client Review</h3>We'll give you a link to the test site after our QA team has reviewed your website
+"<h3> Client Review</h3>We'll give you a link to the test site after our QA team has reviewed your website
 so you can see it on your screen. If you have changes before we start your project,
 you will have several rounds of revisions during this process before we finish it.",
 
-"<h3>6. Launching</h3>Your website will be hosted on our secure servers or on a web host of your choosing. You are free to launch your website right away if you are ready. If you want to set a launch date, we can help you with it.",
+"<h3> Launching</h3>Your website will be hosted on our secure servers or on a web host of your choosing. You are free to launch your website right away if you are ready. If you want to set a launch date, we can help you with it.",
 
 
 
-"<h3>7. Reviews</h3>We will assess the efficiency of your website after it has been launched to ensure
+"<h3> Reviews</h3>We will assess the efficiency of your website after it has been launched to ensure
 that your objectives have been met. We'll also make suggestions for improving
 your website so that you can accomplish your objectives more effectively.",
 ]
@@ -78,7 +78,7 @@ your website so that you can accomplish your objectives more effectively.",
         {% assign expertises = page.expertise_sectors %}
         <ul class="site-expertise-list">
           {%- for expertise in expertises -%}
-            <li>{{ expertise }} </li><br/>
+            <li> {{ expertise }} </li><br/>
           {%- endfor -%}
         </ul>
         {% assign expertises = nill %}
@@ -88,67 +88,6 @@ your website so that you can accomplish your objectives more effectively.",
 </section>
 <!-- end: expertise section -->
 
-<!-- {%- if site.data.clients.enable -%}
-{%- assign clients = site.data.clients -%} -->
-<!-- start: clients section -->
-<!-- <section class="site-client">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="section-title">
-          <h2>{{ clients.title }}</h2>
-        </div>
-        <div class="site-client-wrapper">
-          {%- for logo in clients.client_logos -%}
-            <div class="site-client-item">
-              <img src="{{ logo | absolute_url }}" alt="client-logo">
-            </div>
-          {%- endfor -%}
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- end: clients section -->
-<!-- {%- assign clients = nill -%}
-{%- endif -%}
 
-{%- if site.data.team.enable -%}
-{%- assign team = site.data.team -%} -->
-<!-- start: team section -->
-<!-- <section class="site-team">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="section-title">
-          <h2>
-            {{ team.title }}
-          </h2>
-        </div>
-      </div>
-      {%- for member in team.members -%}
-      <div class="col-lg-6 col-md-4">
-        <div class="site-team-member">
-          <div class="site-team-member-image">
-            <img src="{{ member.image | absolute_url }}" alt="team-member-image">
-          </div>
-          <div class="site-team-member-content">
-            <h3>{{ member.name }}</h3>
-            <p>{{ member.designation }}</p>
-            <ul class="site-team-member-social">
-              <li><a href="{{ member.medium }}"><i class="fa fa-medium"></i></a></li>
-              <li><a href="{{ member.linkedIn }}"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="{{ member.instagram }}"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      {%- endfor -%}
-    </div>
-  </div>
-</section> -->
-<!-- end: team section -->
-<!-- {%- assign team = nill -%}
-{%- endif -%} -->
 
 {%- include call-to-action.html -%}

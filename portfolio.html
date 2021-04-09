@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio
+title: Portfolio | One of Philippines Leading Web Design & Development Agency
 description: We build better <span>products</span> to help our clients build better <span>companies</span>
 permalink: '/portfolio'
 ---
@@ -35,12 +35,12 @@ permalink: '/portfolio'
       <div class="col-lg-6 col-md-10 mx-auto">
         <div class="site-project-item">
           <div class="site-project-item-thumb">
-            <img src="{{ post.image }}" alt="project-thumb-one">
+            <img src="images/blank.png" alt="{{ post.title }}"  data-echo="{{ post.image }}">
           </div>
           <div class="site-project-item-content">
             <span>{{ post.category[0] }}</span>
             <h3>{{ post.title }}</h3>
-            <a href="{{ post.url | absolute_url }}" class="read-more">view project</a>
+            <a href="{{ post.url | absolute_url }}" class="read-more"><strong>View project <i class="fa fa-long-arrow-right" aria-hidden="true"></i></strong></a>
           </div>
         </div>
       </div>

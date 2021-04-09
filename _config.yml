@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 
-title: WebDev Plus
+title: WebDev Plus | One of Philippines Leading Web Design & Development Agency
 email: hello@webdevpl.us
 description: WebDevPlus | Creative Design Agency
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,7 +17,7 @@ gems:
 pagination:
   enabled: true
   per_page: 4
-  permalink: '/blog/:num/'
+  permalink: '/blog/:title/'
   sort_field: 'date'
   sort_reverse: true
 
@@ -59,7 +59,7 @@ footer:
     title   : "Contact Info"
     address : "Isabela<br>PH 3318"
     phone   : "0929-3600-034"
-    email   : "info@webdevpl.us"
+    email   : "hello@webdevpl.us"
   sitemap:
     title: "Sitemap"
     link: 

@@ -8,7 +8,7 @@
         <h1 class="site-cta-title">{{ cta.title }}</h1>
         <ul class="site-cta-buttons">
           <li>
-            <a href="{{ cta.primary_button_url | absolute_url }}" class="btn btn-secondary">
+            <a href="{{ cta.primary_button_url | absolute_url }}" class="btn btn-secondary btn-sm-rounded">
               <span class="btn-area">
                 <span data-text="{{ cta.primary_button }}">
                   {{ cta.primary_button }}
@@ -17,7 +17,7 @@
             </a>
           </li>
           <li>
-            <a href="{{ cta.secondary_button_url | absolute_url }}" class="btn btn-primary">
+            <a href="{{ cta.secondary_button_url | absolute_url }}" class="btn btn-primary btn-sm-rounded">
               <span class="btn-area">
                 <span data-text="{{ cta.secondary_button }}">
                   {{ cta.secondary_button }}
