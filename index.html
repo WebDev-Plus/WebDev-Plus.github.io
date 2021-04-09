@@ -1,6 +1,11 @@
 ---
 layout: default
 title: WebDev Plus | One of Philippines Leading Web Design & Development Agency
+heading: WE ARE WEBDEVPLUS
+slogan: We develop <span>digital products</span> <br/>that help our <span>clients grow</span>, innovate, and transform 🚀.
+proof-header: The Proof is in the Pudding!
+recent-work-header : OUR RECENT WORKS
+recent-work-header-tagline: Crafting experiences and seeking to make the complex clear & beautiful.
 permalink: '/'
 pagination: 
   enabled: true
@@ -15,9 +20,9 @@ pagination:
     <div class="row">
       <div class="col-lg-12 mx-auto">
         <div class="site-hero-content text-center">
-          <h6>WE ARE WEBDEVPLUS </h6>
+          <h6>{{ page.heading }} </h6>
           <h1>
-            We develop <span>digital products</span> <br/>that help our <span>clients grow</span>, innovate, and transform 🚀.
+            {{ page.slogan }}
            
           </h1>
           <ul class="site-hero-content-buttons">
@@ -56,7 +61,7 @@ pagination:
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h2 class="text-white">The Proof is in the Pudding!</h2>
+          <h2 class="text-white">{{ page.proof-header }}</h2>
         </div>
       </div>
       {% if site.data.counters.size > 0 %}
@@ -80,8 +85,8 @@ pagination:
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h2>OUR RECENT WORKS</h2>
-          <p>Crafting experiences and seeking to make the complex clear & beautiful.</p>
+          <h2>{{ page.recent-work-header }}</h2>
+          <p>{{ page.recent-work-header-tagline }}</p>
         </div>
       </div>
       {% assign posts = site.posts | where:'type', 'portfolio' %}
