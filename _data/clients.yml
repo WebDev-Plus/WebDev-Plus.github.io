@@ -1,4 +1,4 @@
 enable        : true
 title         : "Current Clients"
 client_logos  : 
-  ["images/clients/logo-bestproperties.png", "images/clients/logo-fitnizen.png", "images/clients/logo-buytionary.png", "images/clients/logo-manyip.png", "images/clients/logo-zooted.png", "images/clients/logo-idd.png"]
+  ["images/clients/logo-bestproperties.png", "images/clients/logo-fitnizen.png", "images/clients/logo-buytionary.png", "images/clients/logo-manyip.png", "images/clients/logo-zooted.png", "images/clients/logo-idd.png", images/clients/logo-pinoy-tambayan.png]
