@@ -39,6 +39,8 @@ navigation:
     url: /process
   - title: About
     url: /about
+  - title: Blog
+    url: /blog
   - title: Get A Quote
     url: /contact
     tag: special
@@ -67,8 +69,8 @@ footer:
         url   : "/about"
       - name  : "Portfolio"
         url   : "/portfolio"
-      #- name  : "Blog"
-       # url   : "/blog"
+      - name  : "Blog"
+        url   : "/blog"
       - name  : "Contact"
         url   : "/contact"
   social:
