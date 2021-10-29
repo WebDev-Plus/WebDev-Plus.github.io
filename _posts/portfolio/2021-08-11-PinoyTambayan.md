@@ -4,7 +4,7 @@ title: "Pinoy Tambayan"
 date: 2021-08-11 21:11:27
 type: portfolio
 image: "images/projects/project-pinoy-tambayan.jpg"
-category: ["eCommerce"]
+category: ["eCommerce, CMS"]
 project_images: ["images/projects/project-pinoy-tambayan.jpg"]
 ---
 
