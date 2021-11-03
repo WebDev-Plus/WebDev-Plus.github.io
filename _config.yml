@@ -37,8 +37,6 @@ navigation:
     url: /portfolio
   - title: Our Process
     url: /process
-  - title: Pricing
-    url: /pricing
   - title: About
     url: /about
   - title: Blog
