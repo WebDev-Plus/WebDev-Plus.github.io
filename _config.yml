@@ -31,8 +31,7 @@ webrick:
 
 # Navigation
 navigation:
-  - title: Home
-    url: /
+   
   - title: Portfolio
     url: /portfolio
   - title: Our Process
