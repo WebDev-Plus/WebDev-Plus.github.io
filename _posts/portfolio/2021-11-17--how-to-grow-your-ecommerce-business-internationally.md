@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How to Boost Conversions?"
+title: "Tips On How to Grow your eCommerce Business Internationally"
 date: 2021-11-17 21:11:27
 type: blog
-image: images/blog/boost-conversions.png
-feature_image: images/blog/boost-conversions.png
+image: images/blog/e-commerce-business-international-what-to-know.png
+feature_image: images/blog/e-commerce-business-international-what-to-know.png
 author: Killcreek
 ---
 
@@ -12,17 +12,17 @@ author: Killcreek
 
 If your main aim as an eCommerce business owner is to grow in one country, you're selling yourself short. Because your things can be purchased by anybody in the globe, eCommerce is exceptional and unique. Take a look at some of the numbers:
 
-
+<br/><br/>
 - Consumers in Western and Eastern Europe, as well as Asia and the Pacific, buy from retail websites in countries other than their own.
 - By 2022, cross-border purchasing is expected to account for 20% of all eCommerce sales.
 - By 2024, global eCommerce revenues are estimated to total $6.4 trillion.
 - Online buying is becoming more popular outside of national borders.
 - In India, 14% of shoppers purchased things from the United States.
 
-
+<br/><br/>
 Convinced? Although expanding your eCommerce business globally is achievable, it does necessitate careful planning and execution. Follow along for advice on how to expand your online store worldwide.
 
-
+<br/><br/>
 
 ## **International Expansion Requires a Combination of Marketing and Practicality**
 
@@ -30,7 +30,7 @@ Convinced? Although expanding your eCommerce business globally is achievable, it
 
 Your mind may naturally jump to marketing when you hear the words "expanding your business." While you'd be correct in assuming that this post is about marketing, it's also about practicality, such as the speed of your website or international shipping. There are a few key elements to remember to help you get started:
 
-
+<br/><br/>
 
 ### **Recognize Who Your Target Market Is**
 
@@ -47,25 +47,27 @@ The first step, though, is to ensure that your clients can find your website in 
 
 
 You must translate 100 percent of your website to rank on international Search Engine Results Pages (SERP), which is the cornerstone to international eCommerce success. When a customer types a query into a search engine, the SERP is the list of results that appears. The following is a list of things to consider when translating your website:
+<br/><br/>
 
 - Subdomains or subcategories with language-specific subdomains or subcategories with unique URLs
 - All written information on the website
 - Information about metadata (example: meta descriptions)
 
+<br/><br/>
 You're on your way to expanding your eCommerce business overseas after you cater to your new market in their language and "style," as well as make sure they can easily find your website.
 
-
+<br/><br/>
 
 ### **Make Sure Your Website Loads Fast and Works Well on Mobile Devices**
 
 
 To rank on the [SERPs](https://backlinko.com/hub/seo/serps), you need a fast website. Why? Because it is critical for a positive user experience, which is the search engines' top goal. Conversions and SEO rankings are both harmed by slow websites.
 
-
+<br/><br/>
 
 Here are some things you can do to improve website speed (and hence increase conversions and revenue):
 
-
+<br/> 
 
 - Take advantage of a content distribution network ([CDN](https://en.wikipedia.org/wiki/Content_delivery_network))
 - Decompress files and optimize images
@@ -76,25 +78,25 @@ Here are some things you can do to improve website speed (and hence increase con
 - Make use of browser caching
 
 
+<br/><br/>
+
+**Let Our Work Do The Talking**
 
 
-<center>**Let Our Work Do The Talking**
-
-
-////image
+[![How to Boost Conversions?](/images/blog/idd-speed.jpg "Tips On How to Grow your eCommerce Business Internationally")](/contact)
 
 
 PageSpeed Insights for [Internet Daily Deals](https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.internetdailydeals.com)
 
 
 
-</center>
+<br/><br/>
 
 
 
 > **Related: [How to Boost Conversions?](https://webdevpl.us/2021/10/28/how-to-boost-conversion.html)**
 
-
+<br/><br/>
 
 It's critical to guarantee that mobile customers have a positive experience on your website in addition to speeding it up. Mobile-friendly websites are not only preferred by Google, but they also enhance conversions.
 
@@ -105,19 +107,19 @@ Still have doubts about the importance of mobile website optimization? Let's tak
 - A phone screen was used to open 68 percent of email campaigns.
 - Mobile devices account for 56% of organic search engine visitors.
 
-
+<br/><br/>
 **Here's how to make your site mobile-friendly:**
-
+<br/><br/>
 - Make a search option available.
 - Make sure that all photos and videos are mobile-friendly.
 - Stay away from pop-ups.
 - Improve menu navigation.
 - Make sure all text on mobile devices is readable.
 - Accept a wide range of payment options
-
+<br/><br/>
 
 You may expand your website abroad and enhance your revenue by speeding it up and optimizing it on mobile devices.
-
+<br/><br/>
 
 
 ### **Provide Worldwide Shipping That Is Quick (And Returns)**
@@ -139,7 +141,7 @@ In the same way, foreign return options must be provided to customers. Consumers
 
 If you want to take your eCommerce business to the next level, you'll need to consider international delivery, payment options, and refunds.
 
-
+<br/><br/>
 ## **Bottom line: Pay attention to your customers**
 
 
@@ -150,14 +152,6 @@ The key to expanding your eCommerce business overseas is to focus on your custom
 
 
 While ensuring your customers have a positive experience with your store all around the world isn't straightforward, it is surely achievable. 
+<br/><br/>
 
-
-<center> 
-
-### **Ready To Expand Globally?**
-
-
-
-///image get a quote
-
-</center>
+[![How to Boost Conversions?](/images/blog/webdevplus-ads.jpg "Tips On How to Grow your eCommerce Business Internationally")](/contact)
