@@ -83,7 +83,7 @@ Here are some things you can do to improve website speed (and hence increase con
 **Let Our Work Do The Talking**
 
 
-[![How to Boost Conversions?](/images/blog/idd-speed.jpg "Tips On How to Grow your eCommerce Business Internationally")](/contact)
+[![How to Boost Conversions?](/images/blog/idd-speed.JPG "Tips On How to Grow your eCommerce Business Internationally")](/contact)
 
 
 PageSpeed Insights for [Internet Daily Deals](https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.internetdailydeals.com)
