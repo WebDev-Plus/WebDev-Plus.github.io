@@ -3,8 +3,8 @@ layout: post
 title: "How to Boost Conversions?"
 date: 2021-10-28 21:11:27
 type: blog
-image: https://webdevpl.us/images/blog/e-commerce-business-international-what-to-know.png
-feature_image: https://webdevpl.us/images/blog/e-commerce-business-international-what-to-know.png
+image: images/blog/boost-conversions.png
+feature_image: images/blog/boost-conversions.png
 author: Killcreek
 ---
 
