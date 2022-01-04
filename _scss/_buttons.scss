@@ -1,7 +1,8 @@
 .btn{
   font-family: $secondary-font;
   border: none;
-  color: $white !important;
+  font-weight: bold;
+  color: $black;
   padding: 20px 45px;
   border-radius: 0;
   &:focus{
@@ -61,8 +62,8 @@
 }
 
 .btn-primary{
-  background: $primary-color;
-  color: $white;
+  background: $button-color;
+  color: $black;
   &:hover{
     background: darken($color: $primary-color, $amount: 10);
   }
