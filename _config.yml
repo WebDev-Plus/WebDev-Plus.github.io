@@ -48,7 +48,8 @@ navigation:
 call-to-action:
   enable                : true
   background_image      : "images/backgrounds/cta-background.jpg"
-  title                 : "LET’S WORK TOGETHER"
+  title                 : "Have Questions?"
+  tagline               : If you want to know more about how we can support your business, give our friendly team a call and you'll get straight through to someone who can help. We're open Monday to Friday, 8.30-5pm.
   primary_button        : "Submit Query"
   primary_button_url    : "/contact"
   secondary_button      : "Not Convinced Yet?"
