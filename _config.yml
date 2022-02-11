@@ -48,9 +48,9 @@ navigation:
 call-to-action:
   enable                : true
   background_image      : "images/backgrounds/cta-background.jpg"
-  title                 : "Have A Questions?"
+  title                 : "Need a Custom Website?"
   
-  primary_button        : "Submit Query"
+  primary_button        : "Hire Us"
   primary_button_url    : "/contact"
   secondary_button      : "Not Convinced Yet?"
   secondary_button_url  : "/portfolio"
