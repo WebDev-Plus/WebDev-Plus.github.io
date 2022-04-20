@@ -1,11 +1,17 @@
 ---
 layout: default
-title: About | Leading Web Design & Development Agency in the Philippines 
+title: About | Leading Web Design & Development Agency in the Philippines
 permalink: /about/
-heading : "WE ARE WEBDEV+, AN AWARD-WINNING CREATIVE STUDIO IN THE PHILIPPINES."
-description : "🙌 We are a small, yet dedicated and experienced Web Design and Development studio based in San Mateo Isabela, Philippines. We specialized in building Clean, Unique, and Awesome Websites! ✨. We make the web more enjoyable by creating attractive websites for businesses and individuals who need an effective online presence."
+heading: "WE ARE WEBDEV+, AN AWARD-WINNING CREATIVE STUDIO IN THE PHILIPPINES."
+description: "🙌 We are a small, yet dedicated and experienced Web Design and Development studio based in San Mateo Isabela, Philippines. We specialized in building Clean, Unique, and Awesome Websites! ✨. We make the web more enjoyable by creating attractive websites for businesses and individuals who need an effective online presence."
 expertise_title: "Expertise"
-expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engine Optimization", "🍒 Branding"]
+expertise_sectors:
+  [
+    "🌐 Web Development",
+    "💄 Web Design",
+    "📈 Search Engine Optimization",
+    "🍒 Branding",
+  ]
 ---
 
 <!-- start: about header section -->
@@ -15,14 +21,10 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
       <div class="col-12">
         <div class="site-about-wrapper">
           <div class="site-about-company">
-            <h1>
-              {{ page.heading }}
-            </h1>
+            <h1>{{ page.heading }}</h1>
           </div>
           <div class="site-about-description">
-            <p>
-              {{ page.description }}
-            </p>
+            <p>{{ page.description }}</p>
           </div>
         </div>
       </div>
@@ -30,10 +32,6 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
   </div>
 </section>
 <!-- end: about header section -->
-
-
-
-
 
 <!-- start: expertise section -->
 <section class="site-expertise">
@@ -48,7 +46,7 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
         {% assign expertises = page.expertise_sectors %}
         <ul class="site-expertise-list">
           {%- for expertise in expertises -%}
-            <li>{{ expertise }}</li>
+          <li>{{ expertise }}</li>
           {%- endfor -%}
         </ul>
         {% assign expertises = nill %}
@@ -58,8 +56,7 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
 </section>
 <!-- end: expertise section -->
 
-{%- if site.data.clients.enable -%}
-{%- assign clients = site.data.clients -%}
+{%- if site.data.clients.enable -%} {%- assign clients = site.data.clients -%}
 <!-- start: clients section -->
 <section class="site-client">
   <div class="container">
@@ -70,9 +67,9 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
         </div>
         <div class="site-client-wrapper">
           {%- for logo in clients.client_logos -%}
-            <div class="site-client-item">
-              <img src="{{ logo | absolute_url }}" alt="client-logo">
-            </div>
+          <div class="site-client-item">
+            <img src="{{ logo | absolute_url }}" alt="client-logo" />
+          </div>
           {%- endfor -%}
         </div>
       </div>
@@ -80,35 +77,34 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
   </div>
 </section>
 <!-- end: clients section -->
-{%- assign clients = nill -%}
-{%- endif -%}
-
-{%- if site.data.team.enable -%}
-{%- assign team = site.data.team -%}
+{%- assign clients = nill -%} {%- endif -%} {%- if site.data.team.enable -%} {%-
+assign team = site.data.team -%}
 <!-- start: team section -->
 <section class="site-team">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h2>
-            {{ team.title }}
-          </h2>
+          <h2>{{ team.title }}</h2>
         </div>
       </div>
       {%- for member in team.members -%}
       <div class="col-lg-6 col-md-4">
         <div class="site-team-member">
           <div class="site-team-member-image">
-            <img src="{{ member.image | absolute_url }}" alt="team-member-image">
+            <img
+              src="{{ member.image | absolute_url }}"
+              alt="team-member-image"
+            />
           </div>
           <div class="site-team-member-content">
             <h3>{{ member.name }}</h3>
             <p>{{ member.designation }}</p>
             <ul class="site-team-member-social">
-              <li><a href="{{ member.facebook }}"><i class="fa fa-facebook-square"></i></a></li>
-             
-             
+              <li>
+                🔗
+                <a href="{{ member.website }}">{{ member.page }}</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -118,7 +114,4 @@ expertise_sectors: ["🌐 Web Development", "💄 Web Design", "📈 Search Engi
   </div>
 </section>
 <!-- end: team section -->
-{%- assign team = nill -%}
-{%- endif -%}
-
-{%- include call-to-action.html -%}
+{%- assign team = nill -%} {%- endif -%} {%- include call-to-action.html -%}

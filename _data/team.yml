@@ -1,17 +1,14 @@
-enable  : true
-title   : Teamwork makes the dreamwork.
-members  :
-  - image       : images/team/eper.jpeg
-    name        : Jeferson Gaboni
-    designation : Web Developer / Designer
-    facebook    : https://www.facebook.com/epergab
-   
-    
+enable: true
+title: Teamwork makes the dreamwork.
+members:
+  - image: images/team/eper.jpeg
+    name: Jeferson Gaboni
+    designation: Web Developer / Designer
+    website: https://www.epergaboni.com
+    page: epergaboni.com
 
-  - image       : images/team/boks.jpg
-    name        : Jeffrey Gaboni
-    designation : Web Developer / Designer
-    facebook    : https://www.facebook.com/iamthenewking
-    info        : Web Developer by day Handsome by night! 
-    
-   
+  - image: images/team/boks.jpg
+    name: Jeffrey Gaboni
+    designation: Web Developer / Designer
+    website: https://www.jeffgaboni.com
+    page: jeffgaboni.com
