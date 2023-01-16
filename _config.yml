@@ -1,12 +1,12 @@
 # Welcome to Jekyll!
 
-title: WebDev Plus | Leading Web Design & Development Agency in the Philippines 
+title: WebDev Plus | Leading Web Design & Development Agency in the Philippines
 email: hello@webdevpl.us
 description: WebDevPlus | Creative Design Agency
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://webdevpl.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: webdevplus
-github_username:  iamthenewking
+github_username: iamthenewking
 # We're using formspree.io for form handling, paste your formspree url below
 formspreeFormUrl: "https://formspree.io/myylyzbo"
 
@@ -17,8 +17,8 @@ gems:
 pagination:
   enabled: true
   per_page: 4
-  permalink: '/blog/:title/'
-  sort_field: 'date'
+  permalink: "/blog/:title/"
+  sort_field: "date"
   sort_reverse: true
 
 sass:
@@ -31,62 +31,60 @@ webrick:
 
 # Navigation
 navigation:
-   
   - title: Portfolio
     url: /portfolio
   - title: Our Process
     url: /process
   - title: About
     url: /about
-  - title: Blog
-    url: /blog
+  # - title: Blog
+  #   url: /blog
   - title: Get A Quote
     url: /contact
     tag: special
 
 # Call to action
 call-to-action:
-  enable                : true
-  background_image      : "images/backgrounds/cta-background.jpg"
-  title                 : "Need a Custom Website?"
-  
-  primary_button        : "Hire Us"
-  primary_button_url    : "/contact"
-  secondary_button      : "Not Convinced Yet?"
-  secondary_button_url  : "/portfolio"
+  enable: true
+  background_image: "images/backgrounds/cta-background.jpg"
+  title: "Need a Custom Website?"
+
+  primary_button: "Hire Us"
+  primary_button_url: "/contact"
+  secondary_button: "Not Convinced Yet?"
+  secondary_button_url: "/portfolio"
 
 # Footer
 footer:
   contactInfo:
-    title   : "Contact Info"
-    address : "Isabela<br>PH 3318"
-    phone   : "0929-3600-034"
-    email   : "hello@webdevpl.us"
+    title: "Contact Info"
+    address: "Isabela<br>PH 3318"
+    phone: "0929-3600-034"
+    email: "hello@webdevpl.us"
   sitemap:
     title: "Sitemap"
-    link: 
-      - name  : "About"
-        url   : "/about"
-      - name  : "Portfolio"
-        url   : "/portfolio"
-      - name  : "Blog"
-        url   : "/blog"
-      - name  : "Contact"
-        url   : "/contact"
+    link:
+      - name: "About"
+        url: "/about"
+      - name: "Portfolio"
+        url: "/portfolio"
+      - name: "Blog"
+        url: "/blog"
+      - name: "Contact"
+        url: "/contact"
   social:
     title: "Socials"
-    link: 
-      - name  : "Facebook"
-        url   : "https://facebook.com/webdevplus"
+    link:
+      - name: "Facebook"
+        url: "https://facebook.com/webdevplus"
       # - name  : "Twitter"
       #   url   : "https://twitter.com/webdevplus"
       # - name  : "Instagram"
       #   url   : "https://instagram.com/webdevpl.us"
-      
+
   service:
     title: "We help brands:"
     description: "Develop design solutions.<br>Produce valuable cultural content.<br>Create fresh brand experience"
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
